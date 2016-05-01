@@ -119,10 +119,10 @@
 <div class="section scrollspy" id="projects">
     <div class="container">
         <h2 class="header text_b">Current Projects</h2>
+        
         <div class="row">
-
             <!-- new century -->
-            <div class="col s12 m6 l6">
+            <div class="col s12 m6 l6 tooltipped" data-position="top" data-delay="50" data-tooltip="click me!">
                 <div class="card hoverable">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="img/ncs.png">
@@ -130,29 +130,31 @@
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">New Century Learning Centre<i class="mdi-navigation-more-vert right"></i></span>
                         <p>Company website</p>
-                        <p><a href="github.com/lukejamestodd1/NewCentury.git">github.com/lukejamestodd1/NewCentury.git</a></p>
+                        <p><a href="hhtps://github.com/lukejamestodd1/NewCentury.git">github.com/lukejamestodd1/NewCentury.git</a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Company website for a freelance client <i class="mdi-navigation-close right"></i></span>
                         <p>A friend and I built this website for a local Chinese language school. It's a dual language site providing information for visitors, and has an administration area for staff to log in and publish news, photos, and updates.<br><br>We built the back end using Node.js, Express, MongoDB, and Mongoose. <br><br>We used Google Maps API to display campus locations dynamically, and Passport to manage user accounts.<br><br>For the front end designs we used Materialize.css and converted these into jade layouts. We are still adding final touches so this project is not deployed yet.</p>
-                        <p><a href="github.com/lukejamestodd1/NewCentury.git">github.com/lukejamestodd1/NewCentury.git</a></p>
+                        <p><a href="https://github.com/lukejamestodd1/NewCentury.git">github.com/lukejamestodd1/NewCentury.git</a></p>
                     </div>
                 </div>
             </div>
 
             <!-- gruel intentions -->
-            <div class="col s12 m6 l6">
+            <div class="col s12 m6 l6 tooltipped" data-position="top" data-delay="50" data-tooltip="no click me!">
                 <div class="card hoverable">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator responsive-img" src="img/gruel.png">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Gruel Intentions <i class="mdi-navigation-more-vert right"></i></span>
-                        <a href="https://www.gruelintentions.com"><p>A bad food network</p></a>
+                        <p>A bad food network</p>
+                        <p><a href="https://www.gruelintentions.com">gruelintentions.com</a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Gruel Intentions<i class="mdi-navigation-close right"></i></span>
-                        <p>This site allows users to upload photos of their failed recipes. Users create an account or login with Facebook, make posts and can like other recipes. The backend is built with Rails and Sinatra, and I used Backbone, Mustache, and Bootstrap for the front. The site is hosted on Amazon Web Services and Heroku.</p>
+                        <p>This site allows users to upload photos of their failed recipes. Users create an account and log in, and upload their chosen recipe with a picture. Users can "lick" and unlick their favourite recipes. <br><br> I built the backend with Ruby, Sinatra, and ActiveRecord. I used CarrierWave for image uploads and built the front using Bootstrap components. The site is currently hosted on Amazon Web Services and Heroku. <br><br>  I am currently making new pages so users can follow each other, and redoing the front designs with Materialize <br><br> Next I will add Facebook login functionality so users can sign in easily, and post recipes to Facebook</p>
+                        <p><a href="https://www.gruelintentions.com">gruelintentions.com</a></p>
                     </div>
                 </div>
             </div>
@@ -161,7 +163,7 @@
         <div class="row">
 
                 <!-- hungr -->
-            <div class="col s12 m6 l6">
+            <div class="col s12 m6 l6 tooltipped" data-position="top" data-delay="50" data-tooltip="me me me!">
                 <div class="card hoverable">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator responsive-img" src="img/hungr.png">
@@ -169,16 +171,20 @@
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Hungr<i class="mdi-navigation-more-vert right"></i></span>
                         <p>Find friends who want the same thing to eat as you</p>
+                        <p><a href="https://www.hungrapp.herokuapp.com">hungrapp.herokuapp.com</a></p>
+                        <p><a href="https://github.com/lukejamestodd1/hungr.git">github.com/lukejamestodd1/hungr.git</a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Hungr<i class="mdi-navigation-close right"></i></span>
-                        <p>This web app lets you find nearby people who want to eat the same thing you do. Users login, choose a desired food or cuisine, and see a list of other users who want the same thing. The backend is built with Ruby on Rails, and I used Backbone.js and Mustache templating for the frontend single page app. Version 1 is deployed on Heroku but is still in development mode. So far, the Facebook login, change status, and view other users functions are working. I’m currently adding messaging functionality, user profiles, and creating a menu/control panel. After that I'll experiment with Facebook friend list data and use the Google Maps API to get user locations.</p>
+                        <p>This web app lets you find people who want to eat the same thing you do. Users login, choose a desired food or cuisine, and see a list of other users who want the same thing who are nearby. <br><br> The backend is built with Ruby on Rails, and I used Backbone.js and Mustache templating to make the frontend single page app. <br><br> So far the Facebook login, get user locations, change statuses, and view other users functions are working. <br><br> I’m currently adding messaging functionality, user profiles, and creating a menu/control panel. After that I'll integrate Facebook friend list data to show which users are friends on Facebook. <br><br> Version 1 is deployed on Heroku but is not displaying properly on all browsers.</p>
+                        <p><a href="https://www.hungrapp.herokuapp.com">hungrapp.herokuapp.com</a></p>
+                        <p><a href="https://github.com/lukejamestodd1/hungr.git">github.com/lukejamestodd1/hungr.git</a></p>
                     </div>
                 </div>
             </div>
 
                 <!-- trainer buddy -->
-            <div class="col s12 m6 l6">
+            <div class="col s12 m6 l6 tooltipped" data-position="top" data-delay="50" data-tooltip="no! me!">
                 <div class="card hoverable">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="img/trainer.png">
@@ -186,11 +192,13 @@
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Trainer Buddy<i class="mdi-navigation-more-vert right"></i></span>
                         <p>A booking and schedule system for personal trainers</p>
+                        <p><a href="https://github.com/lukejamestodd1/backbone-sausage-trainer.git">view project on github</a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Trainer Buddy<i class="mdi-navigation-close right"></i></span>
-                        <p>This web app helps personal trainers organise their classes and bookings. The trainer adds a class to their schedule, and other users can then book a place. The app shows how many people are booked in for each class, and has a calendar of appointments for each user. Trainers keep a contact list of clients in the app, so they can send group messages to them easily. Customers can view trainer profiles and follow their favourites to stay updated.<br></br>This was a group project, and my role was to create the single page frontend app by integrating the html markup with the backend database tables. I created models, views, and the router in Backbone.js and used mustache templating to render the views into HTML.
+                        <p>This web app helps personal trainers organise their classes and bookings. The trainer adds a class to their schedule, and other users can then book a place. The app shows how many people are booked in for each class and has a calendar of appointments for each user. <br></br> Trainers keep a contact list of clients in the app so they can send group messages easily. Customers can view trainer profiles and follow their favourites to stay updated.<br></br> This was a group project. My role was to create the single page frontend app by integrating the html markup with the backend database tables. I created models, views, and the router in Backbone.js and used mustache templating to render the views into HTML.
                         </p>
+                        <p><a href="https://github.com/lukejamestodd1/backbone-sausage-trainer.git">view project on github</a></p>
                     </div>
                 </div>
             </div>
@@ -369,6 +377,7 @@
     <!--  Scripts-->
     <script src="min/plugin-min.js"></script>
     <script src="min/custom-min.js"></script>
+    <script src="js/init2.js"></script>
 
     </body>
 </html>
