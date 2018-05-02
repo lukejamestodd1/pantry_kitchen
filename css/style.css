@@ -2,12 +2,17 @@
 #no-border{
     border: none;
 }
-h{
-    font-family: 'Press Start 2P', cursive;
+h2{
+    font-family: 'Georgia', cursive;
 }
-.default_color{background-color: #2196F3 !important}
+.main-title{
+    font-weight: 600;
+}
+.default_color{
+    background-color: #f9f2e5 !important
+}
 
-.default_color_text{color: #2196F3 !important}
+.default_color_text{color: black !important}
 
 .icon-block {
     padding: 0 15px;
@@ -32,25 +37,25 @@ h{
     padding: 15% 0;
     font-size: 6.0em;
     font-weight: 100;
-    color:white;
+    color: black;
 }
 
 .brand-logo{
     position: absolute;
-    color: #fff;
+    color: black !important;
     display: inline-block;
     font-size: 2.1rem;
     font-style: normal;
     font-weight: 100;
     padding: 0;
-    letter-spacing: 7px;
+    letter-spacing: 0px;
 }
 
 .text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
 
 .span_h2 {font-weight: 300;color: #2196F3;}
 
-.text_b{color: #2196F3;}
+.text_b{color: black;}
 
 .in{font-weight: 400 !important; font-style: normal !important;}
 
@@ -69,7 +74,7 @@ h{
 
 nav ul a {
     font-size: 1.2rem;
-    color: #FFF;
+    color: black;
     letter-spacing: 2px;
     display: block;
     font-weight: 300;
@@ -112,10 +117,10 @@ nav ul a {
 }
 .italic{
     font-style: italic;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Georgia', cursive;
 }
 .font2{
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Georgia', monospace;
 }
 .cd-headline.type .cd-words-wrapper.selected b {
     color: #2196F3;
@@ -223,7 +228,7 @@ nav ul a {
         padding: 4% 0;
         font-size: 5em;
         font-weight: 100;
-        color: white;
+        color: black;
     }
 }
 
@@ -263,9 +268,50 @@ nav a.button-collapse {
 }
 
 .parallax-container {
-    max-height: 400px;
+    max-height: 300px;
 }
 
 footer.page-footer {
     margin-top: 0px !important;
 }
+.background-white{
+    background: white;
+}
+.wallpaperContainer{
+    background-image: url("../img/tomato.jpg");
+    /*background-repeat: no-repeat;*/
+}
+.titleContainer{
+    background: #f9f2e5;
+    border-style: solid;
+    border-width: 4px;
+}
+.rotate{
+    transform: rotate(90deg);
+}
+.container.narrow{
+    width: 60%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.navbar{
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+}
+footer{
+    border-top-style: solid;
+    border-top-width: 4px;
+}
+.main-title{
+    margin-top: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
