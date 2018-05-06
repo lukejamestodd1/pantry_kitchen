@@ -2,14 +2,17 @@
 #no-border{
     border: none;
 }
-h2{
+h2, h5{
     font-family: 'Georgia', cursive;
 }
 .main-title{
     font-weight: 600;
 }
 .default_color{
-    background-color: #f9f2e5 !important
+    background-color: #f9f2e5 !important;
+}
+body{
+    background-color: #f9f2e5;
 }
 
 .default_color_text{color: black !important}
@@ -291,8 +294,7 @@ footer.page-footer {
 }
 .container.narrow{
     width: 60%;
-    margin-top: 5em;
-    margin-bottom: 5em;
+    
 }
 .navbar{
     border-bottom-style: solid;
@@ -304,6 +306,31 @@ footer{
 }
 .main-title{
     margin-top: 1.5em;
+}
+.page-footer{
+    height: 3em;
+    background-color: #f9f2e5;
+}
+.navbar, footer{
+    display: none;
+}
+.mb1{
+    margin-bottom: 1em;
+}
+.mb2{
+    margin-bottom: 2em;
+}
+.mt1{
+    margin-top: 1em;
+}
+.container{
+
+}
+body {
+    word-wrap: break-word;
+}
+.center.ph{
+    font-size: 20px;
 }
 
 
